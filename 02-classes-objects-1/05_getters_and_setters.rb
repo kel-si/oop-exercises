@@ -9,6 +9,7 @@ class GoodDog
   end
 
   # Setter method to set name after initializing
+  # Convention is to name getter/setter methods using the same name as the instance variable
   def name= n
     @name = n
     # Setter methods always return the value passed in as an argument
